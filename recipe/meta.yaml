@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
   rpaths:
     - lib/R/lib/
@@ -40,10 +40,12 @@ test:
 
 about:
   home: http://www.sf.net/projects/r-gregmisc
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Various R programming tools for model fitting.
   license_family: GPL2
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 extra:
   recipe-maintainers:
     - conda-forge/r
