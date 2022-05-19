@@ -1,4 +1,4 @@
-{% set version = "2.18.1" %}
+{% set version = "2.18.1.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/gmodels_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/gmodels/gmodels_{{ version }}.tar.gz
-  sha256: 626140a34eb8c53dd0a06511a76c71bc61c48777fa76fcc5e6934c9c276a1369
+  sha256: da7d48021b7cd2fd8a7cd8d0bb9658b12342a32698a13877b25ca94aa03f1e95
 
 build:
   noarch: generic
-  number: 1003
+  number: 0
 
   rpaths:
     - lib/R/lib/
