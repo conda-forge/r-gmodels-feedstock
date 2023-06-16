@@ -1,11 +1,11 @@
-About r-gmodels
-===============
+About r-gmodels-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gmodels-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.sf.net/projects/r-gregmisc
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gmodels-feedstock/blob/main/LICENSE.txt)
 
 Summary: Various R programming tools for model fitting.
 
